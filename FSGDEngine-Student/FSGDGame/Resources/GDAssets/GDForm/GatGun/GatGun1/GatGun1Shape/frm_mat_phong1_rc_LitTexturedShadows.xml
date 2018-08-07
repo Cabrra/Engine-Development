@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_phong1_rc_LitTexturedShadows">
+<GDMeshFile>/GDMesh/GatGun/GatGun1Shape.bin</GDMeshFile>
+<GDMaterialFile>/GDMaterial/GatGun/mat_phong1.xml</GDMaterialFile>
+<GDRenderContextFile>BumpTexturedShadows</GDRenderContextFile>
+</GDForm>

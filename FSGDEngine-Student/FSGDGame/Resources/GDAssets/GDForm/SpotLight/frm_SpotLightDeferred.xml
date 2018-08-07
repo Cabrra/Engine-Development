@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="SpotLightDeferred">
+<GDMeshFile>GDMesh/unitCone/pConeShape1.bin</GDMeshFile>
+<GDRenderContextFile>SpotLightDeferred</GDRenderContextFile>
+<RenderShapeType>RenderShapeLight</RenderShapeType>
+</GDForm>

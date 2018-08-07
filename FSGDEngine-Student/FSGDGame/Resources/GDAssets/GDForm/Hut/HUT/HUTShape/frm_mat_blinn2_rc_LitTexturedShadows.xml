@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_blinn2_rc_LitTexturedShadows">
+<GDMeshFile>/GDMesh/Hut/HUTShape.bin</GDMeshFile>
+<GDMaterialFile>/GDMaterial/Hut/mat_blinn2.xml</GDMaterialFile>
+<GDRenderContextFile>BumpTexturedShadows</GDRenderContextFile>
+</GDForm>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_Gun_Textures_rc_LitTexturedShadows">
+<GDMeshFile>/GDMesh/Gun/Gun_LoPolyShape.bin</GDMeshFile>
+<GDMaterialFile>/GDMaterial/Gun/mat_Gun_Textures.xml</GDMaterialFile>
+<GDRenderContextFile>BumpTexturedShadows</GDRenderContextFile>
+</GDForm>

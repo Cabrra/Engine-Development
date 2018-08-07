@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_defaultMat1_rc_LitTexturedShadows">
+<GDMeshFile>/GDMesh/DisplacementBox/pCubeShape1.bin</GDMeshFile>
+<GDMaterialFile>/GDMaterial/DisplacementBox/mat_defaultMat1.xml</GDMaterialFile>
+<GDRenderContextFile>LitTexturedShadows</GDRenderContextFile>
+</GDForm>

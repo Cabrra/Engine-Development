@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_lambert1_rc_LitTexturedShadows">
+<GDMeshFile>GDMesh/unitsphere/pSphereShape1.bin</GDMeshFile>
+<GDMaterialFile></GDMaterialFile>
+<GDRenderContextFile>WireframeColored</GDRenderContextFile>
+</GDForm>

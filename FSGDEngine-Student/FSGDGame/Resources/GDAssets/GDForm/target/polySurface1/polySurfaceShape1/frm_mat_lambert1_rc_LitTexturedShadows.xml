@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_lambert1_rc_LitTexturedShadows">
+<GDMeshFile>/GDMesh/target/polySurfaceShape1.bin</GDMeshFile>
+<GDMaterialFile>/GDMaterial/target/mat_lambert1.xml</GDMaterialFile>
+<GDRenderContextFile>LitTexturedShadows</GDRenderContextFile>
+</GDForm>

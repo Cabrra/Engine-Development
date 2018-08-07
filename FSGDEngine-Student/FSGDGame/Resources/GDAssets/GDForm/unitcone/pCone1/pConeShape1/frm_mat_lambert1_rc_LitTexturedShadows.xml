@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_lambert1_rc_LitTexturedShadows">
+<GDMeshFile>GDMesh/unitCone/pConeShape1.xml</GDMeshFile>
+<GDMaterialFile>GDMaterial/unitcone/mat_lambert1.xml</GDMaterialFile>
+<GDRenderContextFile>LitTexturedShadows</GDRenderContextFile>
+</GDForm>

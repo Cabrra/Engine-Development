@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<GameObject>
+	<Renderer>
+		<TypeName>ShapeRenderer</TypeName>
+		<Path>GDForm\target\polySurface1\polySurfaceShape1\frm_mat_lambert1_rc_LitTexturedShadows.xml</Path>
+	</Renderer>
+	<Collider>
+		<TypeName>SphereCollider</TypeName>
+		<Center>
+			<x>0.0</x><y>0.0</y><z>0.0</z>
+		</Center>
+		<Radius>1.0</Radius>
+	</Collider>
+	
+  <Behaviors>
+    <LookAt>
+		<TargetName>PlayerBuggy</TargetName>
+	</LookAt>
+	<Target/>
+  </Behaviors>
+  
+</GameObject>

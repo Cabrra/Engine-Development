@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_lambert2_rc_LitTexturedShadows">
+<GDMeshFile>GDMesh/unitcube/pCubeShape1.bin</GDMeshFile>
+<GDMaterialFile></GDMaterialFile>
+<GDRenderContextFile>Plain</GDRenderContextFile>
+</GDForm>

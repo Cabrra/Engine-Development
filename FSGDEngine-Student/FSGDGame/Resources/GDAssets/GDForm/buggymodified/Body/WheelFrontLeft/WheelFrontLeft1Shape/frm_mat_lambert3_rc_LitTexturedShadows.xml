@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_lambert3_rc_LitTexturedShadows">
+<GDMeshFile>GDMesh/buggymodified/WheelFrontLeft/WheelFrontLeft1Shape.xml</GDMeshFile>
+<GDMaterialFile>GDMaterial/buggymodified/mat_lambert3.xml</GDMaterialFile>
+<GDRenderContextFile>BumpLitTexturedShadows</GDRenderContextFile>
+</GDForm>

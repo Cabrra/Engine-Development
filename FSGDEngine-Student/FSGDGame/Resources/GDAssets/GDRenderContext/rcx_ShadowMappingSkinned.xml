@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<GDRenderContext name="ShadowMapping">
+<Material></Material>
+<Effect>SkinnedShadowMappingEffect.xml</Effect>
+<Technique>DepthDirectionalLight</Technique>
+<DepthSpotLightTechnique>DepthSpotLight</DepthSpotLightTechnique>
+<DepthPointLightTechnique>DepthPointLight</DepthPointLightTechnique>
+<DepthDirectionalLightTechnique>DepthDirectionalLight</DepthDirectionalLightTechnique>
+<VertexFormat>VERTEX_POSBONEWEIGHT</VertexFormat>
+<CastShadows>false</CastShadows>
+<RenderStyle>DEFERRED</RenderStyle>
+</GDRenderContext>

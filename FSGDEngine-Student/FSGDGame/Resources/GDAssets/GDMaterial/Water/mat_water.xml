@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<GDMaterial name="lambert3">
+  <Ambient_Map>Foam.dds</Ambient_Map>        <!-- Foam texture -->
+  <Ambient>
+    <r>0.05</r>
+    <g>0.05</g>
+    <b>0.05</b>
+    <a>1</a>
+  </Ambient>
+  <Diffuse_Map>HeightMap.dds</Diffuse_Map>    <!-- Height map texture -->
+  <Diffuse>       <!-- Water's surface color -->
+    <r>0.039</r>
+    <g>0.196</g>
+    <b>0.45</b>
+    <a>1</a>
+  </Diffuse>
+  <Specular>
+    <r>1</r>
+    <g>1</g>
+    <b>1</b>
+    <a>1</a>
+  </Specular>
+  <Specular_Map>Caustic.dds</Specular_Map>  <!-- Height map texture -->
+  <Emmisive>        <!-- Water's depth color -->
+    <r>0</r>
+    <g>0</g>
+    <b>0</b>
+    <a>1</a>
+  </Emmisive>
+  <Reflected_Map>cubemap.dds</Reflected_Map>  <!-- Height map texture -->
+  <Reflected>
+    <r>0</r>
+    <g>0</g>
+    <b>0</b>
+    <a>1</a>
+  </Reflected>
+  <Normal_Map>Noise.dds</Normal_Map>      <!-- Noise texture -->
+</GDMaterial>

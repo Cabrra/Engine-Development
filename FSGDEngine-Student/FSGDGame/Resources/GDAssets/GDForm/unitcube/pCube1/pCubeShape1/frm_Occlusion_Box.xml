@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="Occlusion_Box">
+<GDMeshFile>GDMesh/unitcube/pCubeShape1.xml</GDMeshFile>
+<GDMaterialFile></GDMaterialFile>
+<GDRenderContextFile>OcclusionContext</GDRenderContextFile>
+</GDForm>

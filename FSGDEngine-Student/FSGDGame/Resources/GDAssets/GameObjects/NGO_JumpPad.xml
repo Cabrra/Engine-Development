@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<GameObject>
+	<Collider>
+		<TypeName>BoxCollider</TypeName>
+		<Center><x>0.0</x><y>0.0</y><z>0.0</z></Center>
+		<Extents><x>0.5</x><y>0.125</y><z>0.5</z></Extents>
+		<Trigger/>
+	</Collider>
+	<Behaviors>
+		<JumpPad/>
+	</Behaviors>
+</GameObject>

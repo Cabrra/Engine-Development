@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="rc_LitTexturedShadows">
+<GDMeshFile>GDMesh/segment/pCylinderShape1.bin</GDMeshFile>
+<GDMaterialFile></GDMaterialFile>
+<GDRenderContextFile>Plain</GDRenderContextFile>
+</GDForm>
