@@ -3,7 +3,7 @@ Engine Development
 
 ## Overview
 
-This is the student implementation of the Full Sail game engine [Burnsidious](https://github.com/Burnsidious) 
+This is the student implementation of the Full Sail game engine master at: [Burnsidious](https://github.com/Burnsidious). 
 An in house game engine developed for use in lab assignments and student projects at Full Sail University. The engine implementation is partly done in libraries that students have to replace as they go through various courses such as Engine Development, Networking and AI.
 
 ## Student Implementation
@@ -11,14 +11,14 @@ An in house game engine developed for use in lab assignments and student project
 Marked as //TODO, the student needed to comment the specific library that implemented the functionality and came with an alternative implementation.
 
 + File Packer Lab 
-	This lab required to write the functionality to load the directory of a PAK file, load a fileís content from the PAK file to a buffer, and supplementary functions.
+	This lab required to write the functionality to load the directory of a PAK file, load a file‚Äôs content from the PAK file to a buffer, and supplementary functions.
 
 + Matrix Lab
 	For this lab we implemented various algorithms related to entity behavior and camera movement using matrices.  The FSGD Engine is also a good opportunity to practice problem solving and debugging skills as well as trying to familiarize with a large pre-written code base.
 	
 + Memory Manager Lab
 	This lab was designed to show a simple implementation of a Memory Management system. It was good training  for testing familiarity with pointers, cyclic doubly linked lists, and problem solving skills.
-	All functions were implemented inside the FS Student Game Engine, this mimics the real world scenario of working within an existing code base.  Code is written in MMHeap_TODO.cpp and consists of the following functions. Reading the class declaration in MMHeap.h is also advised. Note: If the flow of execution is updated be sure to lock/unlock the heap appropriately. To view memory usage metrics pull down the output console with ìoî then use ìu/iî to reach the memory page. To dump this information (and more), use the following command in the input console MetricDump.
+	All functions were implemented inside the FS Student Game Engine, this mimics the real world scenario of working within an existing code base.  Code is written in MMHeap_TODO.cpp and consists of the following functions. Reading the class declaration in MMHeap.h is also advised. Note: If the flow of execution is updated be sure to lock/unlock the heap appropriately. To view memory usage metrics pull down the output console with ‚Äúo‚Äù then use ‚Äúu/i‚Äù to reach the memory page. To dump this information (and more), use the following command in the input console MetricDump.
 	To execute a core dump, open up the input console (~) and use the command CoreDump.
 
 + Scripting Lab
@@ -37,20 +37,20 @@ Marked as //TODO, the student needed to comment the specific library that implem
 	Implements the Frame class that handles hierarchy flattening and the RenderSet classes which contains batches for rendering and sorting.
 
 + Renderer Lab
-	Basics of a Rendering engine; the Renderer loops through batches of RenderNodes calling their RenderProcess method. The RenderNodeís RenderProcess method calls the RenderFunc function pointer. 
+	Basics of a Rendering engine; the Renderer loops through batches of RenderNodes calling their RenderProcess method. The RenderNode‚Äôs RenderProcess method calls the RenderFunc function pointer. 
 	RenderContext is a child of RenderNode and is used to set different rendering states such as the current shader, vertex stream and input layout.  The RenderShape is also a child of RenderNode; its RenderFuncs makes draw calls using data obtained from references to the RenderMesh and RenderContext classes. The RenderMesh class stores vertex and index data needed for rendering.
 
 + Level of Detail Lab
-	Implements the selection part of a discrete level of detail system. The switching portion of the system was actually already written in the previous Renderer lab. By using the ìaccessorî methods for getting access to the Mesh and Context to be used in our render functions we in turn use the current LOD.
+	Implements the selection part of a discrete level of detail system. The switching portion of the system was actually already written in the previous Renderer lab. By using the ‚Äúaccessor‚Äù methods for getting access to the Mesh and Context to be used in our render functions we in turn use the current LOD.
 	
 + Post-Process Effect Lab
 	Implements a system to handle Post-Process Effects. It also implements solutions for gaussian blur, depth of field and edge drawing effects. use the console to turn them on.
 	+ List of commands:
-		+ AddBlurH ñ Adds a horizontal Gaussian blur pass.
-		+ AddBlurV ñ Adds a vertical Gaussian blur pass.
-		+ AddDoF ñ Adds a down sample, a series of blurs, an up sample and finally a depth of field combine process.
-		+ AddEdges ñ Adds an edge drawing effect pass.
-		+ ClearPost ñ clears all post-process effects
+		+ AddBlurH ‚Äì Adds a horizontal Gaussian blur pass.
+		+ AddBlurV ‚Äì Adds a vertical Gaussian blur pass.
+		+ AddDoF ‚Äì Adds a down sample, a series of blurs, an up sample and finally a depth of field combine process.
+		+ AddEdges ‚Äì Adds an edge drawing effect pass.
+		+ ClearPost ‚Äì clears all post-process effects
 
 + Advanced Lighting Lab
 	This lab implements shader code to support lighting in the engine's deferred renderer, as well as solutions for normal mapping and ambient occlusion mapping.
@@ -62,17 +62,17 @@ Marked as //TODO, the student needed to comment the specific library that implem
 	
 + Terrain Tessellation Lab
 	In this lab you will be implementing the Tessellation pipeline stages used by the terrain system. The Tessellator pipeline stage itself is not programmable, instead a Hull shader is used to influence what the tessellator does, and a Domain shader is used to handle the results of tessellation.
-To have the engine use the tessellated terrain system you will need to change the level that is run at startup. Open the file settings.xml ( ctrl + alt + ëoí, then type ìopen settings.xmlî). Near the top of this XML file you will find a ìLevelî tag, set its data to ìLevels/ed2_tessLevel.xmlî. When running the engine now, you should see the new terrain. The terrain does not have collision detection enabled at this time.
+To have the engine use the tessellated terrain system you will need to change the level that is run at startup. Open the file settings.xml ( ctrl + alt + ‚Äòo‚Äô, then type ‚Äúopen settings.xml‚Äù). Near the top of this XML file you will find a ‚ÄúLevel‚Äù tag, set its data to ‚ÄúLevels/ed2_tessLevel.xml‚Äù. When running the engine now, you should see the new terrain. The terrain does not have collision detection enabled at this time.
 
 + Debug Buffers Lab
 	The goal of this assignment was to provide support for viewing additional rendering buffers in real-time for debugging purposes. Renders the depth buffer, diffuse color buffer, normal buffer, or specular buffer based on user input.  The 2, 3, and 4 keys will toggle viewing the additional buffers.
 		
 ## Controls
 
-+ WASD 		ñ move the camera
-+ Buggy:  I ñ drive forward, K drive backwards, J turn left, L turn right
++ WASD 		‚Äì move the camera
++ Buggy:  I ‚Äì drive forward, K drive backwards, J turn left, L turn right
 + Mouse to pick up and drag entities
-+ PGUP/PGDN ñ Change the Camera Mode
++ PGUP/PGDN ‚Äì Change the Camera Mode
 + Keys 2, 3, and 4 will toggle viewing the additional debug buffers (Note: normal scene should be visible any time)
 + "~" opens the console
 	
